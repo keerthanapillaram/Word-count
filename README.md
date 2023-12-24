@@ -18,11 +18,12 @@ End the program
 
 ## PROGRAM:
 ```
+'''
 Developed by: P.KEERTHANA
 Registered number: 212223240069
 '''
 num_words=0
-with open('file.txt','r') as f1:
+with open('Word.txt','r') as f1:
     for i in f1:
         word=i.split()
         num_words += len(word)
